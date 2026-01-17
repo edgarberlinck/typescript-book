@@ -74,7 +74,7 @@ Uma versão online está disponível em:
     - [Verificação de Propriedades e Verificação de Propriedades Excedentes](#verificação-de-propriedades-e-verificação-de-propriedades-excedentes)
     - [Tipos Fracos](#tipos-fracos)
     - [Verificação Rigorosa de Literais de Objeto (Frescor)](#verificação-rigorosa-de-literais-de-objeto-frescor)
-    - [Inferência de Tipo](#type-inference)
+    - [Inferência de Tipo](#inferência-de-tipo)
     - [Inferências Mais Avançadas](#inferências-mais-avançadas)
     - [Ampliação de Tipo](#ampliação-de-tipo)
     - [Const](#const)
@@ -247,7 +247,7 @@ Uma versão online está disponível em:
 
 ## Introdução
 
-Bem-vindo ao Livro Conciso de TypeScript! Este guia equipa você com conhecimento essencial e habilidades práticas para desenvolvimento eficaz em TypeScript. Descubra conceitos-chave e técnicas para escrever código limpo e robusto. Whether you're a beginner or an experienced developer, this book serves as both um guia abrangente quanto como uma referência útil para aproveitar o poder do TypeScript em seus projetos.
+Bem-vindo ao Livro Conciso de TypeScript! Este guia equipa você com conhecimento essencial e habilidades práticas para desenvolvimento eficaz em TypeScript. Descubra conceitos-chave e técnicas para escrever código limpo e robusto. Seja você um iniciante ou um desenvolvedor experiente, este livro serve tanto como um guia abrangente quanto como uma referência útil para aproveitar o poder do TypeScript em seus projetos.
 
 Este livro cobre TypeScript 5.2.
 
