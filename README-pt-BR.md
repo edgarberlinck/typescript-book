@@ -20,6 +20,8 @@ Este livro foi traduzido para várias versões de idiomas, incluindo:
 
 [Italiano](https://github.com/gibbok/typescript-book/blob/main/README-it_IT.md)
 
+[Português (Brasileiro)](https://github.com/gibbok/typescript-book/blob/main/README-pt-BR.md)
+
 ## Downloads e website
 
 Você também pode baixar a versão Epub:
