@@ -268,7 +268,7 @@ Você pode entrar em contato com Simone Poggiali nas seguintes plataformas:
 
 TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript. Foi originalmente projetado por Anders Hejlsberg em 2012 e atualmente é desenvolvido e mantido pela Microsoft como um projeto de código aberto.
 
-TypeScript compila para JavaScript e pode ser executado em qualquer runtime (e.g., a browser or server Node.js).
+TypeScript compila para JavaScript e pode ser executado em qualquer runtime JavaScript (por exemplo, um navegador ou servidor Node.js).
 
 TypeScript suporta múltiplos paradigmas de programação, como funcional, genérico, imperativo e orientado a objetos. TypeScript não é uma linguagem interpretada nem compilada.
 
