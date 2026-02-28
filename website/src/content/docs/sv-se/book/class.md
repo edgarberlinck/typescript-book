@@ -133,7 +133,6 @@ Skyddade konstruktorer är användbara när du vill skapa en basklass som inte s
 class BaseClass {
     protected constructor() {}
 }
-```
 
 class DerivedClass extends BaseClass {
     private value: number;
@@ -634,7 +633,6 @@ class MyClass {
         this.property2 = 42;
     }
 }
-```
 ```
 
 Använda konstruktorparametrar:

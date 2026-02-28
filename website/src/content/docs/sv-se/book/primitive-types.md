@@ -31,8 +31,6 @@ Datatypen `boolean` i TypeScript lagrar ett binärt värde, antingen `true` elle
 ```typescript
 const isReady: boolean = true;
 ```
-const isReady: boolean = true;
-```
 
 ### number
 

@@ -33,14 +33,6 @@ eller
 ```shell
 yarn tsc
 ```
-npx tsc
-```
-
-eller
-
-```shell
-yarn tsc
-```
 
 Det rekommenderas att installera TypeScript projektvis snarare än globalt, eftersom det ger en mer förutsägbar byggprocess. För enstaka tillfällen kan du dock använda följande kommando:
 

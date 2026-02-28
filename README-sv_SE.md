@@ -506,14 +506,6 @@ eller
 ```shell
 yarn tsc
 ```
-npx tsc
-```
-
-eller
-
-```shell
-yarn tsc
-```
 
 Det rekommenderas att installera TypeScript projektvis snarare än globalt, eftersom det ger en mer förutsägbar byggprocess. För enstaka tillfällen kan du dock använda följande kommando:
 
@@ -1506,8 +1498,6 @@ let sentence: string = `xxx,
 Datatypen `boolean` i TypeScript lagrar ett binärt värde, antingen `true` eller `false`.
 
 ```typescript
-const isReady: boolean = true;
-```
 const isReady: boolean = true;
 ```
 
@@ -3007,7 +2997,6 @@ Skyddade konstruktorer är användbara när du vill skapa en basklass som inte s
 class BaseClass {
     protected constructor() {}
 }
-```
 
 class DerivedClass extends BaseClass {
     private value: number;
@@ -3508,7 +3497,6 @@ class MyClass {
         this.property2 = 42;
     }
 }
-```
 ```
 
 Använda konstruktorparametrar:
