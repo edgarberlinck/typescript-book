@@ -1,0 +1,221 @@
+---
+title: Innehållsförteckning
+sidebar:
+  order: 4
+  label: 4. Innehållsförteckning
+---
+
+
+<!-- markdownlint-disable MD004 -->
+- Den koncisa TypeScript-boken
+  - Översättningar
+  - Nedladdningar och webbplats
+  - Innehållsförteckning
+  - Introduktion
+  - Om författaren
+  - Introduktion till TypeScript
+    - Vad är TypeScript?
+    - Varför TypeScript?
+    - TypeScript och JavaScript
+    - TypeScript-kodgenerering
+    - Modernt JavaScript nu (Downleveling)
+  - Komma igång med TypeScript
+    - Installation
+    - Konfiguration
+    - TypeScript-konfigurationsfil
+      - target
+      - lib
+      - strict
+      - module
+      - moduleResolution
+      - esModuleInterop
+      - jsx
+      - skipLibCheck
+      - files
+      - include
+      - exclude
+    - importHelpers
+    - Råd för migrering till TypeScript
+  - Utforska typsystemet
+    - TypeScript Language Service
+    - Strukturell typning
+    - TypeScripts grundläggande jämförelseregler
+    - Typer som mängder
+    - Tilldela en typ: Typdeklarationer och typpåståenden
+      - Typdeklaration
+      - Typpåstående
+      - Omgivande deklarationer
+    - Egenskapskontroll och kontroll av överflödiga egenskaper
+    - Svaga typer
+    - Strikt kontroll av objektlitteraler (Freshness)
+    - Typinferens
+    - Mer avancerade inferenser
+    - Typbreddning
+    - Const
+      - Const-modifierare på typparametrar
+      - Const-påstående
+    - Explicit typannotering
+    - Typförträngning
+      - Villkor
+      - Kasta eller returnera
+      - Diskriminerad union
+      - Användardefinierade typvakter
+  - Primitiva typer
+    - string
+    - boolean
+    - number
+    - bigInt
+    - Symbol
+    - null och undefined
+    - Array
+    - any
+  - Typannoteringar
+  - Valfria egenskaper
+  - Skrivskyddade egenskaper
+  - Indexsignaturer
+  - Utöka typer
+  - Litteraltyper
+  - Litteralinferens
+  - strictNullChecks
+  - Enums
+    - Numeriska enums
+    - Sträng-enums
+    - Konstanta enums
+    - Omvänd mappning
+    - Omgivande enums
+    - Beräknade och konstanta medlemmar
+  - Förträngning
+    - typeof-typvakter
+    - Sanningsvärdesförträngning
+    - Likhetsförträngning
+    - In-operatorförträngning
+    - instanceof-förträngning
+  - Tilldelningar
+  - Kontrollflödesanalys
+  - Typpredikat
+  - Diskriminerade unioner
+  - Never-typen
+  - Uttömmande kontroll
+  - Objekttyper
+  - Tupeltyp (Anonym)
+  - Namngiven tupeltyp (Etiketterad)
+  - Tupel med fast längd
+  - Unionstyp
+  - Skärningstyper
+  - Typindexering
+  - Typ från värde
+  - Typ från funktionsretur
+  - Typ från modul
+  - Mappade typer
+  - Modifierare för mappade typer
+  - Villkorliga typer
+  - Distributiva villkorliga typer
+  - infer-typinferens i villkorliga typer
+  - Fördefinierade villkorliga typer
+  - Mallunionstyper
+  - Any-typen
+  - Unknown-typen
+  - Void-typen
+  - Never-typen
+  - Interface och Type
+    - Vanlig syntax
+    - Grundläggande typer
+    - Objekt och gränssnitt
+    - Unions- och skärningstyper
+  - Inbyggda typprimitiver
+  - Vanliga inbyggda JS-objekt
+  - Överlagringar
+  - Sammanslagning och utökning
+  - Skillnader mellan Type och Interface
+  - Klass
+    - Vanlig klasssyntax
+    - Konstruktor
+    - Privata och skyddade konstruktorer
+    - Åtkomstmodifierare
+    - Get och Set
+    - Auto-accessorer i klasser
+    - this
+    - Parameteregenskaper
+    - Abstrakta klasser
+    - Med generics
+    - Dekoratorer
+      - Klassdekoratorer
+      - Egenskapsdekoratör
+      - Metoddekoratör
+      - Getter- och setter-dekoratorer
+      - Dekoratörmetadata
+    - Arv
+    - Statiska medlemmar
+    - Egenskapsinitiering
+    - Metodöverlagring
+  - Generics
+    - Generisk typ
+    - Generiska klasser
+    - Generiska begränsningar
+    - Generisk kontextuell förträngning
+  - Raderade strukturella typer
+  - Namnrymder
+  - Symboler
+  - Trippelsnedstrecksdirektiv
+  - Typmanipulering
+    - Skapa typer från typer
+    - Indexerade åtkomsttyper
+    - Hjälptyper
+      - Awaited\<T\>
+      - Partial\<T\>
+      - Required\<T\>
+      - Readonly\<T\>
+      - Record\<K, T\>
+      - Pick\<T, K\>
+      - Omit\<T, K\>
+      - Exclude\<T, U\>
+      - Extract\<T, U\>
+      - NonNullable\<T\>
+      - Parameters\<T\>
+      - ConstructorParameters\<T\>
+      - ReturnType\<T\>
+      - InstanceType\<T\>
+      - ThisParameterType\<T\>
+      - OmitThisParameter\<T\>
+      - ThisType\<T\>
+      - Uppercase\<T\>
+      - Lowercase\<T\>
+      - Capitalize\<T\>
+      - Uncapitalize\<T\>
+      - NoInfer\<T\>
+  - Övrigt
+    - Fel och undantagshantering
+    - Mixin-klasser
+    - Asynkrona språkfunktioner
+    - Iteratorer och generatorer
+    - TsDocs JSDoc-referens
+    - @types
+    - JSX
+    - ES6-moduler
+    - ES7 exponentiering-operator
+    - for-await-of-satsen
+    - New target meta-egenskap
+    - Dynamiska importuttryck
+    - "tsc –watch"
+    - Non-null assertion-operatorn
+    - Standarddeklarationer
+    - Valfri kedja
+    - Nullish coalescing-operatorn
+    - Malllitteraltyper
+    - Funktionsöverlagring
+    - Rekursiva typer
+    - Rekursiva villkorliga typer
+    - ECMAScript-modulstöd i Node
+    - Påståendefunktioner
+    - Variadiska tupeltyper
+    - Inramade typer
+    - Kovarians och kontravarians i TypeScript
+      - Valfria variansannoteringar för typparametrar
+    - Mallsträngmönster-indexsignaturer
+    - satisfies-operatorn
+    - Importer och exporter av enbart typer
+    - using-deklaration och explicit resurshantering
+      - await using-deklaration
+    - Importattribut
+<!-- markdownlint-enable MD004 -->
+
