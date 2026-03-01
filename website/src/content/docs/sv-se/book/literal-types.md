@@ -13,8 +13,8 @@ Literaltyper i TypeScript är tal, strängar och booleaner.
 Exempel på literaler:
 
 ```typescript
-const a = 'a'; // String literal type
-const b = 1; // Numeric literal type
+const a = 'a'; // Sträng literal type
+const b = 1; // Numerisk literal type
 const c = true; // Boolean literal type
 ```
 

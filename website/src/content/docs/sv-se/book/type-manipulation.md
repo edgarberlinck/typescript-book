@@ -17,7 +17,7 @@ Gör det möjligt att kombinera flera typer till en enda typ:
 ```typescript
 type A = { foo: number };
 type B = { bar: string };
-type C = A & B; // Intersection of A and B
+type C = A & B; // Skärning av A och B
 const obj: C = { foo: 42, bar: 'hello' };
 ```
 
@@ -43,7 +43,7 @@ type Person = {
     name: string;
     age: number;
 };
-type ImmutablePerson = Mutable<Person>; // Properties become read-only
+type ImmutablePerson = Mutable<Person>; // Egenskaper blir skrivskyddade
 ```
 
 Villkorliga typer:
@@ -126,7 +126,7 @@ type Person = {
 type A = Readonly<Person>;
 
 const a: A = { name: 'Simon', age: 17 };
-a.name = 'John'; // Invalid
+a.name = 'John'; // Ogiltig
 ```
 
 #### Record\<K, T\>
@@ -295,8 +295,8 @@ type Logger = {
 
 let helperFunctions: { [name: string]: Function } & ThisType<Logger> = {
     hello: function () {
-        this.log('some error'); // Valid as "log" is a part of "this".
-        this.update(); // Invalid
+        this.log('some error'); // Giltig eftersom "log" är en del av "this".
+        this.update(); // Ogiltig
     },
 };
 ```
@@ -340,7 +340,7 @@ NoInfer är en verktygstyp utformad för att blockera automatisk typinferens ino
 Exempel:
 
 ```typescript
-// Automatic inference of types within the scope of a generic function.
+// Automatisk härledning av typer inom omfattningen av en generisk funktion.
 function fn<T extends string>(x: T[], y: T) {
     return x.concat(y);
 }
@@ -351,11 +351,11 @@ Med NoInfer:
 
 <!-- skip -->
 ```typescript
-// Example function that uses NoInfer to prevent type inference
+// Exempelfunktion som använder NoInfer för att förhindra typhärledning
 function fn2<T extends string>(x: T[], y: NoInfer<T>) {
     return x.concat(y);
 }
 
-const r2 = fn2(['a', 'b'], 'c'); // Error: Type Argument of type '"c"' is not assignable to parameter of type '"a" | "b"'.
+const r2 = fn2(['a', 'b'], 'c'); // Fel: Type Argument of type '"c"' is not assignable to parameter of type '"a" | "b"'.
 ```
 
