@@ -35,19 +35,19 @@ sidebar:
       - include
       - exclude
     - importHelpers
-    - Råd för migrering till TypeScript
+    - Råd vid migrering till TypeScript
   - Utforska typsystemet
-    - TypeScript Language Service
+    - TypeScript-språktjänsten
     - Strukturell typning
-    - TypeScripts grundläggande jämförelseregler
+    - Grundläggande jämförelseregler i TypeScript
     - Typer som mängder
     - Tilldela en typ: Typdeklarationer och typpåståenden
       - Typdeklaration
       - Typpåstående
       - Omgivande deklarationer
-    - Egenskapskontroll och kontroll av överflödiga egenskaper
+    - Egenskapskontroll och kontroll av överskottsegenskaper
     - Svaga typer
-    - Strikt kontroll av objektlitteraler (Freshness)
+    - Strikt kontroll av objektliteraler (Freshness)
     - Typinferens
     - Mer avancerade inferenser
     - Typbreddning
@@ -55,7 +55,7 @@ sidebar:
       - Const-modifierare på typparametrar
       - Const-påstående
     - Explicit typannotering
-    - Typförträngning
+    - Typavsmalnande
       - Villkor
       - Kasta eller returnera
       - Diskriminerad union
@@ -74,8 +74,8 @@ sidebar:
   - Skrivskyddade egenskaper
   - Indexsignaturer
   - Utöka typer
-  - Litteraltyper
-  - Litteralinferens
+  - Literaltyper
+  - Literalhärledning
   - strictNullChecks
   - Enums
     - Numeriska enums
@@ -84,12 +84,12 @@ sidebar:
     - Omvänd mappning
     - Omgivande enums
     - Beräknade och konstanta medlemmar
-  - Förträngning
+  - Avsmalning
     - typeof-typvakter
-    - Sanningsvärdesförträngning
-    - Likhetsförträngning
-    - In-operatorförträngning
-    - instanceof-förträngning
+    - Sanningsvärdesavsmalning
+    - Likhetsavsmalning
+    - In-operatoravsmalning
+    - instanceof-avsmalning
   - Tilldelningar
   - Kontrollflödesanalys
   - Typpredikat
@@ -97,14 +97,14 @@ sidebar:
   - Never-typen
   - Uttömmande kontroll
   - Objekttyper
-  - Tupeltyp (Anonym)
-  - Namngiven tupeltyp (Etiketterad)
-  - Tupel med fast längd
+  - Tuppeltyp (Anonym)
+  - Namngiven tuppeltyp (Märkt)
+  - Tuppel med fast längd
   - Unionstyp
-  - Skärningstyper
+  - Intersektionstyper
   - Typindexering
   - Typ från värde
-  - Typ från funktionsretur
+  - Typ från funktionsreturvärde
   - Typ från modul
   - Mappade typer
   - Modifierare för mappade typer
@@ -112,17 +112,18 @@ sidebar:
   - Distributiva villkorliga typer
   - infer-typinferens i villkorliga typer
   - Fördefinierade villkorliga typer
-  - Mallunionstyper
+  - Mall-unionstyper
   - Any-typen
   - Unknown-typen
   - Void-typen
   - Never-typen
+  - Användning av Never-typen
   - Interface och Type
-    - Vanlig syntax
+    - Gemensam syntax
     - Grundläggande typer
-    - Objekt och gränssnitt
-    - Unions- och skärningstyper
-  - Inbyggda typprimitiver
+    - Objekt och Interface
+    - Union- och Intersection-typer
+  - Inbyggda primitiva typer
   - Vanliga inbyggda JS-objekt
   - Överlagringar
   - Sammanslagning och utökning
@@ -138,11 +139,11 @@ sidebar:
     - Parameteregenskaper
     - Abstrakta klasser
     - Med generics
-    - Dekoratorer
-      - Klassdekoratorer
+    - Dekoratörer
+      - Klassdekoratörer
       - Egenskapsdekoratör
       - Metoddekoratör
-      - Getter- och setter-dekoratorer
+      - Getter- och setter-dekoratörer
       - Dekoratörmetadata
     - Arv
     - Statiska medlemmar
@@ -152,15 +153,15 @@ sidebar:
     - Generisk typ
     - Generiska klasser
     - Generiska begränsningar
-    - Generisk kontextuell förträngning
+    - Generisk kontextuell avsmalning
   - Raderade strukturella typer
   - Namnrymder
   - Symboler
-  - Trippelsnedstrecksdirektiv
-  - Typmanipulering
+  - Trippelsnedstreck-direktiv
+  - Typmanipulation
     - Skapa typer från typer
     - Indexerade åtkomsttyper
-    - Hjälptyper
+    - Verktygstyper
       - Awaited\<T\>
       - Partial\<T\>
       - Required\<T\>
@@ -192,26 +193,26 @@ sidebar:
     - @types
     - JSX
     - ES6-moduler
-    - ES7 exponentiering-operator
+    - ES7 exponentiationsoperator
     - for-await-of-satsen
-    - New target meta-egenskap
+    - Metaegenskapen new.target
     - Dynamiska importuttryck
     - "tsc –watch"
-    - Non-null assertion-operatorn
+    - Non-null Assertion Operator
     - Standarddeklarationer
-    - Valfri kedja
+    - Valfri kedjning (Optional Chaining)
     - Nullish coalescing-operatorn
-    - Malllitteraltyper
+    - Mallsträngslitteraltyper (Template Literal Types)
     - Funktionsöverlagring
     - Rekursiva typer
-    - Rekursiva villkorliga typer
-    - ECMAScript-modulstöd i Node
-    - Påståendefunktioner
-    - Variadiska tupeltyper
-    - Inramade typer
+    - Rekursiva villkorstyper
+    - Stöd för ECMAScript-moduler i Node
+    - Assertionsfunktioner
+    - Variadiska tuppeltyper
+    - Inkapslingstyper (Boxed types)
     - Kovarians och kontravarians i TypeScript
-      - Valfria variansannoteringar för typparametrar
-    - Mallsträngmönster-indexsignaturer
+      - Valfria variansannotationer för typparametrar
+    - Mallsträngsmönsterindexsignaturer
     - satisfies-operatorn
     - Importer och exporter av enbart typer
     - using-deklaration och explicit resurshantering

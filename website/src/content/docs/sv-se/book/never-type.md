@@ -1,8 +1,8 @@
 ---
-title: Never-typen
+title: Användning av Never-typen
 sidebar:
   order: 47
-  label: 47. Never-typen
+  label: 47. Användning av Never-typen
 ---
 
 

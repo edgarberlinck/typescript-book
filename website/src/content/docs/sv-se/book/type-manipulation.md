@@ -270,6 +270,7 @@ interface Person {
 }
 type PersonThisType = ThisParameterType<Person['greet']>; // Person
 ```
+
 #### OmitThisParameter\<T\>
 
 Tar bort 'this'-parametern från en funktionstyp T.
